@@ -13,7 +13,7 @@ The Medicine Reminder System is a basic embedded system designed to alert users 
 - 🧠 LPC2148 Microcontroller (ARM7)
 - ⌚ Inbuilt RTC – Maintains accurate time
 - 📺 20x4 LCD Display – Shows current time and alerts
-- 🎛️ 4x4 Keypad – Used to set a single reminder time
+- 🎛️ 4x4 Keypad – Used to set a reminder time
 - 🔔 Buzzer – Sounds an alert when it's time for the medicine
 - 🔌 Power Supply Unit – To power the setup
 
@@ -25,14 +25,14 @@ The Medicine Reminder System is a basic embedded system designed to alert users 
 ✅ Efficient use of RTC ensures precise time-based alerting
 
 ## ⚙️ How It Works:
-1. At boot-up, the system initializes the RTC, LCD, buzzer, and keypad.
-2. The real-time clock is shown on the LCD screen.
+1. At boot-up, the system initializes the RTC, LCD, buzzer, and keypad .
+2. The real-time clock is shown on the LCD screen and after pressing switch 1 menu will displayed on LCD to do changes.
 3. The user sets one fixed reminder time through the keypad.
 4. The system continuously checks the RTC to keep track of the current time.
 5. When current time matches the reminder:
    - 🔔 The buzzer activates.
    - 📢 LCD shows a message like  "Time to take medicine".
-6. The user can interrupt the alert by pressing a key, which will then return the system to idle mode.
+6. The user can interrupt the alert by pressing a switch2, which will then return the system to idle mode.
 
 ## 🚀 Steps to Compile & Run:
 ### 🔧 1. Compile Code  
