@@ -4,10 +4,10 @@
 The Medicine Reminder System is a basic embedded system designed to alert users at a specific time to take their medicine. Built using the ARM7-based LPC2148 microcontroller, which comes with an inbuilt Real-Time Clock (RTC), this system helps individuals—especially the elderly or patients under medication—to maintain timely dosage schedules.
 
 ## 🛠️ Tools & Technologies Used:
-🔹 Keil µVision 4 – For coding and compilation  
-🔹 Proteus Design Suite – For simulating circuit behavior  
-🔹 Flash Magic – Helps in dumping the executable (.hex) file into the LPC2148 microcontroller.
-🔹 LPC2148 Microcontroller – ARM7 MCU with inbuilt RTC support
+- Keil µVision 4 – For coding and compilation  
+- Proteus Design Suite – For simulating circuit behavior  
+- Flash Magic – Helps in dumping the executable (.hex) file into the LPC2148 microcontroller.
+- LPC2148 Microcontroller – ARM7 MCU with inbuilt RTC support
 
 ## 🧩 Hardware Components:
 - 🧠 LPC2148 Microcontroller (ARM7)
